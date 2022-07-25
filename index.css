@@ -1,0 +1,34 @@
+body {
+    background: lavender;
+}
+
+/* took this from my pre-work website and not sure I'm using it */
+/* .row {
+    display:flex;
+    flex-wrap:wrap;
+    padding:0 40px;
+} */
+    
+a:link {
+    color: magenta;
+}
+  
+  /* visited link */
+  
+  a:visited {
+    color: pink;
+}
+  
+  /* mouse over link */
+a:hover {
+    background-color: magenta;
+}
+  
+  /* selected link */
+a:active {
+    color: yellow;
+} 
+  
+a:link {
+    text-decoration: none;  
+}
