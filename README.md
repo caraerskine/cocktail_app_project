@@ -1,4 +1,7 @@
 Description of App
+-What do we drink tonight
+-random drink generator 
+
 -This is my Cocktail Drink App
 
 3 unique event listeners
@@ -35,3 +38,10 @@ https://github.com/caraerskine/cocktail_app_project
 
 How to run it
 
+Fetch object
+random algorithm to fetch the object
+
+1A- dom content loaded
+1- picks a different drink
+2- like button "like" the drink or heart
+3- make background light and dark mode
