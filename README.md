@@ -4,13 +4,6 @@ Description of App
 
 -This is my Cocktail Drink App
 
-3 unique event listeners
--1. DOM Content Loaded 
--2. 
--3. 
-
-I want this to be really simple 
-
 -Could I have a "random" button you can click to bring up a random drink?
 (Is that hard?)
 
@@ -23,20 +16,14 @@ I want this to be really simple
 -Can I add a feature where I like a drink
 -A like button?
 
--I would like to display
-
--I would like to "like" the drinks 
-
--I would like to display the first ten drinks
-(iterate to get the first 10 values)
-
-
+-Display the first ten results?
 
 
 URL of repo
 https://github.com/caraerskine/cocktail_app_project
 
 How to run it
+?
 
 Fetch object
 random algorithm to fetch the object
