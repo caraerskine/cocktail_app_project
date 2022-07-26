@@ -1,10 +1,12 @@
 console.info('src/index.js loaded');
 
+function getNewDrinks()
+
 document.addEventListener('DOMContentLoaded', () => { 
 
 
   console.log("DOMContentLoaded")
-function getNewDrinks(){
+{
   fetch('http://www.thecocktaildb.com/api/json/v1/1/random.php:1')
   .then(res => res.json())
   .then(data => console.log (data))
