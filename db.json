@@ -1,16 +1,59 @@
 {
     "cocktails": [
+        
     ]
   }
 
-    {
-        name: "Cocktail Name",
-        desc: "Description text",
-        url: "An image url:",
+  {
+        name: "Margarita",
+        desc: "Classic cocktail",
+        url: "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
         ingredients: [{
-                      ingredientName: "Name of ingredient",
-                      measurement: "Quantity",
-                      units: "The unit of measurement(ie. ml, oz, cups)"
+                      ingredientName: "Tequila",
+                      measurement: "1.5",
+                      units: "ounce"
                       }, 
+
+                      {
+                      ingredientName: "Triple Sec",
+                      measurement: "0.5",
+                      units: "ounce"
+                      }, 
+
+                       {
+                       ingredientName: "Lime Juice",
+                       measurement: "1",
+                       units: "ounce"
+                       }, 
+                        
+                       {
+                       ingredientName: "Lime Juice",
+                       measurement: "1",
+                       units: "ounce"
+                       }, 
                       ...]
         }
+
+        {
+            name: "Martini",
+            desc: "Classic cocktail",
+            url: "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
+            ingredients: [{
+                          ingredientName: "Gin",
+                          measurement: "1.5",
+                          units: "ounce"
+                          }, 
+    
+                          {
+                          ingredientName: "Dry Vermouth",
+                          measurement: "0.5",
+                          units: "ounce"
+                          }, 
+    
+                           {
+                           ingredientName: "Olive",
+                           measurement: "1",
+                           units: " "
+                           }, 
+                          ...]
+            }
