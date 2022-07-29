@@ -44,3 +44,27 @@ fetch('http://www.thecocktaildb.com/api/json/v1/1/random.php:1')
 
 
   }})
+
+
+  //10 cocktails
+  //for each or map to itierate over array for cocktails 
+  //dark light mode "click event"
+  //see many cocktails
+  //see a random cocktail
+  //clearing the field, is not redirect 
+  //assesment by the 12th
+  //1-get all cocntails on one page (60-70% project requirements)
+  //2-can the random cocktail button work?
+  //could people add their own cocktails?
+  //localhost300/cocktails
+  //return would be an array of datda
+  //for each or a map to craete li's or cards
+  //objects should have an id or else back end will have problems
+  // onece you return data you can play wiuth it
+
+  //book a meeting before the assesment 1:1 for a code challenge
+
+  //Monday after 6 pm 
+  //weds after 4:00 is ok 
+  //thurs 5:30
+  //office hours 

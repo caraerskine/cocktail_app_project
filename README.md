@@ -23,7 +23,13 @@ URL of repo
 https://github.com/caraerskine/cocktail_app_project
 
 How to run it
+Open HTML file
+Run db.json file 
+You need JS to run it
 ?
+
+mention reset css file idea
+and any other ideas I got from others
 
 Fetch object
 random algorithm to fetch the object
