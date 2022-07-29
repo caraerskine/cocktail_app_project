@@ -18,15 +18,8 @@
                       ingredientName: "Triple Sec",
                       measurement: "0.5",
                       units: "ounce"
-                      }, 
-
-                       {
-                       ingredientName: "Lime Juice",
-                       measurement: "1",
-                       units: "ounce"
-                       }, 
-                        
-                       {
+                      }
+                      {                       
                        ingredientName: "Lime Juice",
                        measurement: "1",
                        units: "ounce"
@@ -53,7 +46,52 @@
                            {
                            ingredientName: "Olive",
                            measurement: "1",
-                           units: " "
+                           units: "whole olive"
                            }, 
                           ...]
             }
+
+            {
+                name: "Bluebird",
+                desc: "Classic cocktail",
+                url: "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg",
+                ingredients: [{
+                              ingredientName: "Gin",
+                              measurement: "1.5",
+                              units: "ounce"
+                              }, 
+        
+                              {
+                              ingredientName: "Triple Sec",
+                              measurement: "0.5",
+                              units: "ounce"
+                              }, 
+        
+                               {
+                               ingredientName: "Blue Curacao",
+                               measurement: "0.5",
+                               units: "ounce"
+                               }, 
+
+                               {
+                                ingredientName: "Bitters",
+                                measurement: "2",
+                                units: "dashes"
+                                }, 
+
+                                {
+                                    ingredientName: "Maraschino Cherry",
+                                    measurement: "1",
+                                    units: "cherry"
+                                    }, 
+                                {
+                                    ingredientName: "Lemon Peel",
+                                    measurement: "1",
+                                    units: "fruit"
+                                }, 
+
+
+
+
+                              ...]
+                }
