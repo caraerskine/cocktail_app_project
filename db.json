@@ -1,0 +1,16 @@
+{
+    "cocktails": [
+    ]
+  }
+
+    {
+        name: "Cocktail Name",
+        desc: "Description text",
+        url: "An image url:",
+        ingredients: [{
+                      ingredientName: "Name of ingredient",
+                      measurement: "Quantity",
+                      units: "The unit of measurement(ie. ml, oz, cups)"
+                      }, 
+                      ...]
+        }
