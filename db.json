@@ -80,10 +80,11 @@
                                 }, 
 
                                 {
-                                    ingredientName: "Maraschino Cherry",
-                                    measurement: "1",
-                                    units: "cherry"
-                                    }, 
+                                ingredientName: "Maraschino Cherry",
+                                measurement: "1",
+                                units: "cherry"
+                                }, 
+                                
                                 {
                                     ingredientName: "Lemon Peel",
                                     measurement: "1",
@@ -95,3 +96,159 @@
 
                               ...]
                 }
+
+                {
+                    name: "White Russian",
+                    desc: "Classic cocktail",
+                    url: "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
+                    ingredients: [{
+                                  ingredientName: "Vodka",
+                                  measurement: "2",
+                                  units: "ounce"
+                                  }, 
+            
+                                  {
+                                  ingredientName: "Coffee Liqueur",
+                                  measurement: "1",
+                                  units: "ounce"
+                                  }, 
+            
+                                   {
+                                   ingredientName: "Light Cream",
+                                   measurement: "0.5",
+                                   units: "ounce"
+                                   }, 
+                                  ...]
+                    }
+                    
+                    {
+                        name: "Tom Collins",
+                        desc: "Classic cocktail",
+                        url: "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
+                        ingredients: [{
+                                      ingredientName: "Gin",
+                                      measurement: "2",
+                                      units: "ounce"
+                                      }, 
+                
+                                      {
+                                      ingredientName: "Lemon Juice",
+                                      measurement: "1",
+                                      units: "ounce"
+                                      }, 
+                
+                                       {
+                                       ingredientName: "Simple Syrup",
+                                       measurement: "0.5",
+                                       units: "ounce"
+                                       }, 
+
+                                       {
+                                        ingredientName: "Club Soda",
+                                        measurement: "3",
+                                        units: "ounce"
+                                        }, 
+
+                                        {
+                                        ingredientName: "Maraschino Cherry",
+                                        measurement: "1",
+                                        units: "cherry"
+                                        }, 
+
+                                        {
+                                            ingredientName: "Lemon Slice",
+                                            measurement: "1",
+                                            units: "fruit"
+                                            },
+
+                                      ...]
+                        }
+                        {
+                            name: "Radioactive Long Island Iced Tea",
+                            desc: "Classic cocktail",
+                            url: "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
+                            ingredients: [{
+                                          ingredientName: "Rum",
+                                          measurement: "1",
+                                          units: "ounce"
+                                          }, 
+                    
+                                          {
+                                          ingredientName: "Vodka",
+                                          measurement: "1",
+                                          units: "ounce"
+                                          }, 
+                    
+                                           {
+                                           ingredientName: "Tequila",
+                                           measurement: "1",
+                                           units: "ounce"
+                                           }, 
+            
+                                           {
+                                            ingredientName: "Gin",
+                                            measurement: "1",
+                                            units: "ounce"
+                                            }, 
+            
+                                            {
+                                            ingredientName: "Triple Sec",
+                                            measurement: "1",
+                                            units: "ounce"
+                                            }, 
+                                            
+                                            {
+                                                ingredientName: "Chambord",
+                                                measurement: "1",
+                                                units: "oz"
+                                            }, 
+                                            {
+                                                ingredientName: "Melon Liqueur",
+                                                measurement: "1",
+                                                units: "oz"
+                                            }, 
+                                            {
+                                                ingredientName: "Coconut Rum",
+                                                measurement: "1",
+                                                units: "oz"
+                                            }
+                                        }
+                                        {
+                                            name: "Sazerac",
+                                            desc: "Classic cocktail",
+                                            url: "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
+                                            ingredients: [{
+                                                          ingredientName: "Ricard",
+                                                          measurement: "1",
+                                                          units: "tsp"
+                                                          }, 
+                                    
+                                                          {
+                                                          ingredientName: "Simple Syrup",
+                                                          measurement: "0.5",
+                                                          units: "ounce"
+                                                          }, 
+                                    
+                                                           {
+                                                           ingredientName: "Bitters",
+                                                           measurement: "2",
+                                                           units: "dashes"
+                                                           }, 
+                                                           {
+                                                            ingredientName: "Water",
+                                                            measurement: "1",
+                                                            units: "tsp"
+                                                            }, 
+                                                            {
+                                                                ingredientName: "Bourbon",
+                                                                measurement: "2",
+                                                                units: "ounces"
+                                                                }, 
+                                                                {
+                                                                    ingredientName: "Twist",
+                                                                    measurement: "1",
+                                                                    units: "Lemon Peel"
+                                                                    }, 
+                                                          ...]
+                                            }
+                                             
