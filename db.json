@@ -4,7 +4,7 @@
         
         "id": 0,
         "name": "Margarita",
-        "desc": "Classic cocktail",
+        "desc": "A sour drink served up",
         "url": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
         "ingredients": [{
                       "ingredientName": "Tequila",
@@ -28,7 +28,7 @@
     {
         "id": 1,
         "name": "Martini",
-            "desc": "Classic cocktail",
+            "desc": "Classic cocktail from James Bond",
             "url": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
            "ingredients": [{
                           "ingredientName": "Gin",
@@ -53,7 +53,7 @@
     {
         "id": 2,
     "name": "Bluebird",
-    "desc": "Classic cocktail",
+    "desc": "A Blue drink that's crazy",
     "url": "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg",
     "ingredients": [{
                             "ingredientName": "Gin",
@@ -95,7 +95,7 @@
         {
         "id": 3,
         "name": "White Russian",
-        "desc": "Classic cocktail",
+        "desc": "A nice after dinner drink",
         "url": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
         "ingredients": [{
                         "ingredientName": "Vodka",
@@ -120,7 +120,7 @@
     {
         "id": 4,
         "name": "Tom Collins",
-        "desc": "Classic cocktail",
+        "desc": "A sour refreshing, gin drink",
         "url": "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
         "ingredients": [{
                     "ingredientName": "Gin",
@@ -163,7 +163,7 @@
         {
             "id": 5,
             "name": "Radioactive Long Island Iced Tea",
-            "desc": "Classic cocktail",
+            "desc": "The kitchen sink",
             "url": "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
             "ingredients": [{
                         "ingredientName": "Rum",
@@ -215,7 +215,7 @@
         {
             "id": 6,
             "name": "Sazerac",
-            "desc": "Classic cocktail",
+            "desc": "My uncle likes this one",
             "url": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
             "ingredients": [{
                         "ingredientName": "Ricard",
@@ -257,7 +257,7 @@
     {
        "id": 7,
         "name": "Banana Daiquiri",
-        "desc": "Classic cocktail",
+        "desc": "A refreshing summer treat",
         "url": "https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg",
         "ingredients": [{
                     "ingredientName": "Light Rum",
@@ -297,7 +297,7 @@
 {
     "id": 8,
     "name": "Rusty Nail",
-    "desc": "Classic cocktail",
+    "desc": "On a winter day",
     "url": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
     "ingredients": [{
                 "ingredientName": "Scotch",
@@ -322,7 +322,7 @@
 {
     "id": 9,
     "name": "Kamikaze",
-    "desc": "Classic cocktail",
+    "desc": "A lime-ish, sour drink ",
     "url": "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
     "ingredients": [{
                 "ingredientName": "Vodka",
