@@ -46,14 +46,11 @@ random algorithm to fetch the object
   //see a random cocktail
   //clearing the field, is not redirect 
   //assesment by the 12th
-  //1-get all coktails on one page (60-70% project requirement)
+  //1-get all cocktails on one page (60-70% project requirement)
   //2-can the random cocktail button work?
   //could people add their own cocktails?
-  //localhost3000/cocktails
-  //return would be an array of datda
   //for each or a map to craete li's or cards
-  //objects should have an id or else back end will have problems
-  //once you return data you can play with it
+  
 
   //book a meeting before the assesment 1:1 for a code challenge before my assessment
 

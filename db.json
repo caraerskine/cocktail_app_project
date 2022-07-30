@@ -1,339 +1,349 @@
 {
-    "cocktails": [
+    "cocktails": [ 
+        {
         
-    ]
-  }
-  {
-     name: "Margarita",
-        desc: "Classic cocktail",
-        url: "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
-        ingredients: [{
-                      ingredientName: "Tequila",
-                      measurement: "1.5",
-                      units: "ounce"
-                      }, 
+        "id": 0,
+        "name": "Margarita",
+        "desc": "Classic cocktail",
+        "url": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+        "ingredients": [{
+                      "ingredientName": "Tequila",
+                      "measurement": "1.5",
+                      "units": "ounce"
+                    }, 
 
                       {
-                      ingredientName: "Triple Sec",
-                      measurement: "0.5",
-                      units: "ounce"
-                      }
+                      "ingredientName": "Triple Sec",
+                      "measurement": "0.5",
+                      "units": "ounce"
+                      },
                       {                       
-                       ingredientName: "Lime Juice",
-                       measurement: "1",
-                       units: "ounce"
-                       }, 
-                      ...]
-    }
+                       "ingredientName": "Lime Juice",
+                       "measurement": "1",
+                       "units": "ounce"
+                       }
+                      ]
+    },
 
     {
-        name: "Martini",
-            desc: "Classic cocktail",
-            url: "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
-            ingredients: [{
-                          ingredientName: "Gin",
-                          measurement: "1.5",
-                          units: "ounce"
+        "id": 1,
+        "name": "Martini",
+            "desc": "Classic cocktail",
+            "url": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg",
+           "ingredients": [{
+                          "ingredientName": "Gin",
+                          "measurement": "1.5",
+                          "units": "ounce"
                           }, 
     
                           {
-                          ingredientName: "Dry Vermouth",
-                          measurement: "0.5",
-                          units: "ounce"
+                          "ingredientName": "Dry Vermouth",
+                          "measurement": "0.5",
+                          "units": "ounce"
                           }, 
     
                            {
-                           ingredientName: "Olive",
-                           measurement: "1",
-                           units: "whole olive"
-                           }, 
-                          ...]
-    }
+                           "ingredientName": "Olive",
+                           "measurement": "1",
+                           "units": "whole olive"
+                           }
+                          ]
+    },
 
     {
-    name: "Bluebird",
-    desc: "Classic cocktail",
-    url: "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg",
-    ingredients: [{
-                            ingredientName: "Gin",
-                            measurement: "1.5",
-                            units: "ounce"
+        "id": 2,
+    "name": "Bluebird",
+    "desc": "Classic cocktail",
+    "url": "https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg",
+    "ingredients": [{
+                            "ingredientName": "Gin",
+                            "measurement": "1.5",
+                            "units": "ounce"
                             }, 
         
                             {
-                            ingredientName: "Triple Sec",
-                            measurement: "0.5",
-                            units: "ounce"
+                            "ingredientName": "Triple Sec",
+                            "measurement": "0.5",
+                            "units": "ounce"
                             }, 
         
                             {
-                            ingredientName: "Blue Curacao",
-                            measurement: "0.5",
-                            units: "ounce"
+                            "ingredientName": "Blue Curacao",
+                            "measurement": "0.5",
+                            "units": "ounce"
                             }, 
 
                             {
-                            ingredientName: "Bitters",
-                            measurement: "2",
-                            units: "dashes"
+                            "ingredientName": "Bitters",
+                            "measurement": "2",
+                            "units": "dashes"
                             }, 
 
                             {
-                            ingredientName: "Maraschino Cherry",
-                            measurement: "1",
-                            units: "cherry"
+                            "ingredientName": "Maraschino Cherry",
+                            "measurement": "1",
+                            "units": "fruit"
                             }, 
                                 
                             {
-                            ingredientName: "Lemon Peel",
-                            measurement: "1",
-                            units: "fruit"
-                            }, 
-
-
-
-
-                              ...]
-    }
-
-    {
-        name: "White Russian",
-        desc: "Classic cocktail",
-        url: "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
-        ingredients: [{
-                        ingredientName: "Vodka",
-                        measurement: "2",
-                        units: "ounce"
-                        }, 
-            
-                        {
-                        ingredientName: "Coffee Liqueur",
-                        measurement: "1",
-                        units: "ounce"
-                        }, 
-            
-                        {
-                        ingredientName: "Light Cream",
-                        measurement: "0.5",
-                        units: "ounce"
-                        }, 
-                                  ...]
-    }
-                    
-    {
-        name: "Tom Collins",
-        desc: "Classic cocktail",
-        url: "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
-        ingredients: [{
-                    ingredientName: "Gin",
-                    measurement: "2",
-                    units: "ounce"
-                    }, 
-                
-                    {
-                    ingredientName: "Lemon Juice",
-                    measurement: "1",
-                    units: "ounce"
-                    }, 
-                
-                    {
-                    ingredientName: "Simple Syrup",
-                    measurement: "0.5",
-                    units: "ounce"
-                    }, 
-
-                    {
-                    ingredientName: "Club Soda",
-                    measurement: "3",
-                    units: "ounce"
-                    }, 
-
-                    {
-                    ingredientName: "Maraschino Cherry",
-                    measurement: "1",
-                    units: "cherry"
-                    }, 
-
-                    {
-                    ingredientName: "Lemon Slice",
-                    measurement: "1",
-                    units: "fruit"
+                            "ingredientName": "Lemon Peel",
+                            "measurement": "1",
+                            "units": "fruit"
+                            }
+                        ]    
                     },
-
-                                      ...]
-        }
         {
-            name: "Radioactive Long Island Iced Tea",
-            desc: "Classic cocktail",
-            url: "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
-            ingredients: [{
-                        ingredientName: "Rum",
-                        measurement: "1",
-                        units: "ounce"
-                        }, 
-                    
-                        {
-                        ingredientName: "Vodka",
-                        measurement: "1",
-                        units: "ounce"
-                        }, 
-                    
-                        {
-                        ingredientName: "Tequila",
-                        measurement: "1",
-                        units: "ounce"
+        "id": 3,
+        "name": "White Russian",
+        "desc": "Classic cocktail",
+        "url": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
+        "ingredients": [{
+                        "ingredientName": "Vodka",
+                        "measurement": "2",
+                        "units": "ounce"
                         }, 
             
                         {
-                        ingredientName: "Gin",
-                        measurement: "1",
-                        units: "ounce"
+                        "ingredientName": "Coffee Liqueur",
+                        "measurement": "1",
+                        "units": "ounce"
                         }, 
             
                         {
-                        ingredientName: "Triple Sec",
-                        measurement: "1",
-                        units: "ounce"
+                        "ingredientName": "Light Cream",
+                        "measurement": "0.5",
+                        "units": "ounce"
+                        }
+                        ]
+    },
+                    
+    {
+        "id": 4,
+        "name": "Tom Collins",
+        "desc": "Classic cocktail",
+        "url": "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
+        "ingredients": [{
+                    "ingredientName": "Gin",
+                    "measurement": "2",
+                    "units": "ounce"
+                    }, 
+                
+                    {
+                    "ingredientName": "Lemon Juice",
+                    "measurement": "1",
+                    "units": "ounce"
+                    }, 
+                
+                    {
+                    "ingredientName": "Simple Syrup",
+                    "measurement": "0.5",
+                    "units": "ounce"
+                    }, 
+
+                    {
+                    "ingredientName": "Club Soda",
+                    "measurement": "3",
+                    "units": "ounce"
+                    }, 
+
+                    {
+                    "ingredientName": "Maraschino Cherry",
+                    "measurement": "1",
+                    "units": "fruit"
+                    }, 
+
+                    {
+                    "ingredientName": "Lemon Slice",
+                    "measurement": "1",
+                    "units": "fruit"
+                    }
+
+                    ]
+        },
+        {
+            "id": 5,
+            "name": "Radioactive Long Island Iced Tea",
+            "desc": "Classic cocktail",
+            "url": "https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg",
+            "ingredients": [{
+                        "ingredientName": "Rum",
+                        "measurement": "1",
+                        "units": "ounce"
+                        }, 
+                    
+                        {
+                        "ingredientName": "Vodka",
+                        "measurement": "1",
+                        "units": "ounce"
+                        }, 
+                    
+                        {
+                        "ingredientName": "Tequila",
+                        "measurement": "1",
+                        "units": "ounce"
+                        }, 
+            
+                        {
+                        "ingredientName": "Gin",
+                        "measurement": "1",
+                        "units": "ounce"
+                        },
+            
+                        {
+                        "ingredientName": "Triple Sec",
+                        "measurement": "1",
+                        "units": "ounce"
                         }, 
                                             
                         {
-                        ingredientName: "Chambord",
-                        measurement: "1",
-                        units: "oz"
+                        "ingredientName": "Chambord",
+                        "measurement": "1",
+                        "units": "ounce"
                         }, 
                         {
-                        ingredientName: "Melon Liqueur",
-                        measurement: "1",
-                        units: "oz"
+                        "ingredientName": "Melon Liqueur",
+                        "measurement": "1",
+                        "units": "ounce"
                         }, 
                         {
-                        ingredientName: "Coconut Rum",
-                        measurement: "1",
-                        units: "oz"
+                        "ingredientName": "Coconut Rum",
+                        "measurement": "1",
+                        "units": "ounce"
                         }
-        }
+                    ]
+        },
         {
-            name: "Sazerac",
-            desc: "Classic cocktail",
-            url: "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
-            ingredients: [{
-                        ingredientName: "Ricard",
-                        measurement: "1",
-                        units: "tsp"
+            "id": 6,
+            "name": "Sazerac",
+            "desc": "Classic cocktail",
+            "url": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
+            "ingredients": [{
+                        "ingredientName": "Ricard",
+                        "measurement": "1",
+                        "units": "tsp"
                         }, 
                                     
                         {
-                        ingredientName: "Simple Syrup",
-                        measurement: "0.5",
-                        units: "ounce"
-                        }, 
+                        "ingredientName": "Simple Syrup",
+                        "measurement": "0.5",
+                        "units": "ounce"
+                        },
                                     
                         {
-                        ingredientName: "Bitters",
-                        measurement: "2",
-                        units: "dashes"
+                        "ingredientName": "Bitters",
+                        "measurement": "2",
+                        "units": "dashes"
                         }, 
                         {
-                        ingredientName: "Water",
-                        measurement: "1",
-                        units: "tsp"
+                        "ingredientName": "Water",
+                        "measurement": "1",
+                        "units": "tsp"
                         }, 
+
                         {
-                        ingredientName: "Bourbon",
-                        measurement: "2",
-                        units: "ounces"
+                        "ingredientName": "Bourbon",
+                        "measurement": "2",
+                        "units": "ounce"
                         }, 
+
                         {
-                        ingredientName: "Twist",
-                        measurement: "1",
-                        units: "Lemon Peel"
-                        }, 
-                        ...]
-    }
+                        "ingredientName": "Twist",
+                        "measurement": "1",
+                        "units": "Lemon Peel"
+                        }
+                        ]
+    },
                                              
     {
-        name: "Banana Daiquiri",
-        desc: "Classic cocktail",
-        url: "https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg",
-        ingredients: [{
-                    ingredientName: "Light Rum",
-                    measurement: "1.5",
-                    units: "oz"
+       "id": 7,
+        "name": "Banana Daiquiri",
+        "desc": "Classic cocktail",
+        "url": "https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg",
+        "ingredients": [{
+                    "ingredientName": "Light Rum",
+                    "measurement": "1.5",
+                    "units": "ounce"
                     }, 
                                 
                     {
-                    ingredientName: "Triple Sec",
-                    measurement: "0.5",
-                    units: "ounce"
+                    "ingredientName": "Triple Sec",
+                    "measurement": "0.5",
+                    "units": "ounce"
                     }, 
                                 
                     {
-                    ingredientName: "Banana",
-                    measurement: "1",
-                    units: "fruit"
+                    "ingredientName": "Banana",
+                    "measurement": "1",
+                    "units": "fruit"
                     }, 
                     {
-                    ingredientName: "Lime Juice",
-                    measurement: "1.5",
-                    units: "oz"
+                    "ingredientName": "Lime Juice",
+                    "measurement": "1.5",
+                    "units": "ounce"
                     }, 
                     {
-                    ingredientName: "Simple Syrup",
-                    measurement: "0.5",
-                    units: "ounces"
+                    "ingredientName": "Simple Syrup",
+                    "measurement": "0.5",
+                    "units": "ounce"
                     }, 
                     {
-                    ingredientName: "Cherry",
-                    measurement: "1",
-                    units: "fruit"
-                    }, 
-                    ...]
-}
+                    "ingredientName": "Cherry",
+                    "measurement": "1",
+                    "units": "fruit"
+                    }
+                    ]
+},
 
 {
-    name: "Rusty Nail",
-    desc: "Classic cocktail",
-    url: "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
-    ingredients: [{
-                ingredientName: "Scotch",
-                measurement: "1.5",
-                units: "oz"
+    "id": 8,
+    "name": "Rusty Nail",
+    "desc": "Classic cocktail",
+    "url": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
+    "ingredients": [{
+                "ingredientName": "Scotch",
+                "measurement": "1.5",
+                "units": "ounce"
                 }, 
                             
                 {
-                ingredientName: "Drambuie",
-                measurement: "0.5",
-                units: "ounce"
+                "ingredientName": "Drambuie",
+                "measurement": "0.5",
+                "units": "ounce"
                 }, 
                             
                 {
-                ingredientName: "Lemon Peel",
-                measurement: "1",
-                units: "twist"
-                },  
-                ...]
-}
+                "ingredientName": "Lemon Peel",
+                "measurement": "1",
+                "units": "twist"
+                } 
+                ]
+},
 
 {
-    name: "Kamikaze",
-    desc: "Classic cocktail",
-    url: "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
-    ingredients: [{
-                ingredientName: "Vodka",
-                measurement: "1",
-                units: "oz"
+    "id": 9,
+    "name": "Kamikaze",
+    "desc": "Classic cocktail",
+    "url": "https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg",
+    "ingredients": [{
+                "ingredientName": "Vodka",
+                "measurement": "1",
+                "units": "ounce"
                 }, 
                             
                 {
-                ingredientName: "Triple Sec",
-                measurement: "1",
-                units: "ounce"
+                "ingredientName": "Triple Sec",
+                "measurement": "1",
+                "units": "ounce"
                 }, 
                             
                 {
-                ingredientName: "Lime juice",
-                measurement: "1",
-                units: "ounce"
-                },  
-                ...]
-}
+                "ingredientName": "Lime juice",
+                "measurement": "1",
+                "units": "ounce"
+                } 
+                ]
+            }
+        
+            ]
+        }
+
