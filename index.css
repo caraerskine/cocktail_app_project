@@ -1,13 +1,25 @@
-body {
-    background: lavender;
-}
 
-/* took this from my pre-work website and not sure I'm using it */
-/* .row {
-    display:flex;
-    flex-wrap:wrap;
-    padding:0 40px;
-} */
+body {
+    padding: 25px;
+    font-size: 25px;
+  }
+  
+  body.dark-mode {
+    background-color: purple;
+  }
+
+
+  /* .mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: purple;
+    color: lavender;
+    font-size: 25px;
+  }  */
+
+ 
+
+/* 
     
 a:link {
     color: magenta;
@@ -15,20 +27,21 @@ a:link {
   
   /* visited link */
   
-  a:visited {
+  /* a:visited {
     color: pink;
 }
   
   /* mouse over link */
-a:hover {
+/* a:hover {
     background-color: magenta;
-}
+} */
   
   /* selected link */
-a:active {
+/* a:active {
     color: yellow;
-} 
+}  */
   
-a:link {
+/* a:link {
     text-decoration: none;  
-}
+}  */
+
