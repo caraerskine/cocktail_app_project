@@ -4,11 +4,8 @@ let cocktailArray = []
 
 let displayDiv = document.getElementById("display-drinks"); //random drink
 
-let showDiv = document.getElementById("show-drinks"); //all drinks
+let showDiv = document.getElementsByClassName("#card"); //all drinks, not sure if it should be "show-drinks"
 
-
-
-// let showAllDiv = document.getElementById("")
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch("http://www.localhost:3000/cocktails")
@@ -34,6 +31,8 @@ function randomDrink() {
 //function to get all the cocktail data I have  
 function renderCocktail(cocktail) {
   const {name, desc, id} = cocktail;
+return cocktailArray[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  //   return (name, desc, id);
   console.log(name, desc, id);
 }
 
@@ -41,7 +40,7 @@ function renderCocktail(cocktail) {
 
 
 //function to get all the drinks (I need to display them as well)
-function getAllDrinks(cocktail) {
+function getAllDrinks() {
    const {card, container} = cocktail;
 console.log(card, container);
 }
@@ -69,6 +68,6 @@ randomDrinkButton.addEventListener("click", randomDrink)
 
 //all drinks button <gimme all the drinks>
 
-const allDrinksButton = document.getElementById("all-drinks");
+const allDrinksButton = document.getElementsByClassName("#card"); //not sure if this should be "card" or "show-drinks"
 
 allDrinksButton.addEventListener("click", getAllDrinks)
