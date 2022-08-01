@@ -1,19 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Drink Now</title>
+        <title>Let's Have a Drink Tonight</title>
         <link rel="stylesheet" href="./index.css" />
+
         <script defer src="./src/index.js"></script> 
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     </head> 
     <body>
-       <h1>We are drinking tonight</h1>
+       <h1>Friends, we are drinking tonight!</h1>
 
-       <button id = "darkButton" >Toggle dark mode</button>
+       <button id = "dark-button" >Toggle dark mode</button>
 
-       <button id="clickme">What are we drinking?</button>
-       <div id="displayme"></div>
+       <button id="random-drink">Surprise me</button>
+       <div id="display-drinks"></div>
+
+       <button id="all-drinks">Gimme all the drinks</button>
+       <div id="show-drinks"></div>
+
+       <h2>All the drinks</h2>
+
+       <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg" alt="Margarita drink" style="width:40%">
+        <div class="container">
+          <h4><b>Margarita</b></h4> 
+          <p>A sour drink served up</p> 
+        </div>
+      </div>
+
+       <div class="card">
+         <img src="https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg" alt="Martini drink" style="width:40%">
+         <div class="container">
+           <h4><b>Martini</b></h4> 
+           <p>Classic cocktail from James Bond</p> 
+         </div>
+       </div>
+
+       <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/5jhyd01582579843.jpg" alt="Bluebird drink" style="width:40%">
+        <div class="container">
+          <h4><b>Bluebird</b></h4> 
+          <p>A blue drink that's crazy</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg" alt="White Russian drink" style="width:40%">
+        <div class="container">
+          <h4><b>White Russian</b></h4> 
+          <p>A nice after dinner drink</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg" alt="Tom Collins drink" style="width:40%">
+        <div class="container">
+          <h4><b>Tom Collins</b></h4> 
+          <p>A sour, refreshing, gin drink</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/rdvqmh1503563512.jpg" alt="Radioactive Long Island Iced Tea drink" style="width:40%">
+        <div class="container">
+          <h4><b>Radioactive Long Island Iced Tea</b></h4> 
+          <p>The kitchen sink</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg" alt="Sazerac drink" style="width:40%">
+        <div class="container">
+          <h4><b>Sazerac</b></h4> 
+          <p>My uncle likes this one</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/k1xatq1504389300.jpg" alt="Banana Daiquiri drink" style="width:40%">
+        <div class="container">
+          <h4><b>Banana Daiquiri</b></h4> 
+          <p>A refreshing summer drink</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg" alt="Rusty Nail drink" style="width:40%">
+        <div class="container">
+          <h4><b>Rusty Nail</b></h4> 
+          <p>Nice and cozy on a winter's day</p>
+      </div>
+
+      <div class="card">
+        <img src="https://www.thecocktaildb.com/images/media/drink/d7ff7u1606855412.jpg" alt="Kamikaze drink" style="width:40%">
+        <div class="container">
+          <h4><b>Kamikaze</b></h4> 
+          <p>A lime-ish, sour drink</p>
+      </div>
 
     </body>
 </html>
 
-<!-- onclick="darkLight()" -->

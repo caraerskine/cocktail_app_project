@@ -8,6 +8,31 @@ body {
     background-color: purple;
   }
 
+  h1 {
+    text-align: left;
+    text-transform: uppercase;
+    color: aqua;
+  }
+
+ /* big background image */ 
+  /* html { 
+    background: url(The-Connaught-London-001.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+  /* card styling below */ 
+  .card {
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
 
   /* .mystyle {
     width: 100%;

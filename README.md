@@ -1,12 +1,11 @@
 Description of App
--We Are drinking tonight
+-We Are drinking tonight, a cocktail app
 
 My event listeners are:
 -DOMContentLoaded
--random drink generator 
--light/dark toggle mode
-
--for Each displays the name and the description
+-random drink generator button
+-display all drinks button
+-light/dark toggle mode button
 
 URL of repo
 https://github.com/caraerskine/cocktail_app_project
@@ -20,10 +19,6 @@ mention reset css file idea
 and any other ideas I got from others
 
 
-1- dom content loaded
-2- button for random cocktail (math.floor)
-3- make background light and dark mode / dark light mode "click event"
-  
   //clearing the search field, is not a redirect 
   //for each or a map to create li's or cards
   
