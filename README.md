@@ -4,8 +4,11 @@ Description of App
 My event listeners are:
 -DOMContentLoaded
 -random drink generator button
+  -when a user clicks, surprise me, a random drink card should display (flip to read recipe *extra).
 -display all drinks button
+  -when a user clicks "gimme all the drinks" button, all the drinks cards should be displayed (flip to read recipe *extra).
 -light/dark toggle mode button
+  -when a user clicks "toggle dark mode" button, the background of the page should become dark
 
 URL of repo
 https://github.com/caraerskine/cocktail_app_project
