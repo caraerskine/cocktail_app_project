@@ -18,20 +18,28 @@
       <button id="user-drink">Add New Drink</button>
       <div class="show" id="user-drink"></div>
 
-      <button id="dark-button">Toggle dark mode</button>
 
+      
+      <form action="http://www.localhost:3000/cocktails" method="post">     
+
+        <input id="drink" type="text" placeholder="your new drink" />
+        <br/>
+        <input id="desc" type="text" placeholder="your drink description" />
+        <br/>
+        <input id="ingr" type="text" placeholder="add ingredient" />
+        <br/>        
+      </form>    
+
+  
+
+      <br/>
+      <button id="dark-button">Toggle dark mode</button>
+      <br/>
       <button id="random-drink">Surprise me</button>
       <div class="display" id="display-drinks"></div>
 
       
-      <form>        
-        <input name="drink" type="drink" placeholder="your new drink" />
-        <br/>
-        <input name="desc" type="description" placeholder="your drink description" />
-        <br/>
-        <input name="ingr" type="ingredient" placeholder="add ingredient" />
-        <br/>
-      </form>        
+         
       
    </body>
 </html>
