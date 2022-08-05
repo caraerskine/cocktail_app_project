@@ -12,60 +12,28 @@ let numberOfCocktails
 
 let cocktailArray = [] 
 
-const displayDiv = document.getElementById("display-drinks"); //random drink
+const displayDiv = document.getElementById("display-drinks"); //random drink, need to display the data
 
-// const showDiv = document.getElementsByClassName("card"); //all drinks, not sure if it should be "show-drinks"
-
-
-//Not sure if any of this is correct. Trying to make my HTML from the JS here//
-const main = document.querySelector(".main");
-main.textContent = "Friends, We Are Drinking Tonight";
-
-//test
-// function addElement(){
-//   const newCar
-// }
-
-
-
-
-
-// const li = document.createElement("li");
-// const ul = document.createElement("ul");
-// li.appendChild(document.createTextNode("id"));
-// li.appendChild(document.createTextNode("ingredients"));
-// li.appendChild(document.createTextNode("img"));
-// ul.appendChild(li);
-
-
-// const getAllCocktails = () => {
-//   fetch("http://www.localhost:3000/cocktails")
-//   .then((res) => res.json())
-//   .then((cocktails) => {
-//     cocktails.forEach((cocktail) => renderCocktail(cocktail));
-//     cocktailArray = [...cocktails]
-//     numberOfCocktails = cocktails.length;
-//   });
-// }
-
+// const showDiv = document.getElementById("user-drink");
 
 
 //function to get random drinks (now I need to display them)
 function randomDrink() {
    let randomIndex = Math.floor(Math.random()*numberOfCocktails)
-   console.log(cocktailArray[randomIndex]) 
+   console.log(cocktailArray[randomIndex], randomIndex) 
    return cocktailArray[randomIndex]
-//innerHTML? to display it?
 }  
-
-
 
 //function to get all the cocktail data I have  
 function renderCocktail(cocktail) {
   const {name, desc, id, url} = cocktail;
 
+  const main = document.querySelector(".main");
+  main.textContent = "Friends, We Are Drinking Tonight";
+ 
+  //code for cards//
   let cocktailImg = document.createElement("img");
-  cocktailImg.setAttribute("class", "card-image")
+  cocktailImg.setAttribute("class", "card-image");
   cocktailImg.src = url 
   cocktailImg.alt = name 
 
@@ -84,35 +52,25 @@ function renderCocktail(cocktail) {
 
   cardDiv.append(cocktailImg, containerDiv)
   displayDiv.append(cardDiv)
-
-  //consider the "id" of the cardDiv the id of the cocktail
- 
+  //is the "id" of the cardDiv the id of the cocktail
 
   console.log(name, desc, id, url);
 }
 
- //<div class="card">
-//   <img src="img_avatar.png" alt="Avatar" style="width:100%">
-//   <div class="container">
-//     <h4><b>John Doe</b></h4>
-//     <p>Architect & Engineer</p>
-//   </div>
-// </div>
+//form
+//goal: make a form with an input field where a user can type a new drink name, drink desc, add drink img, and add ingredients
+//and then create a card of their drink
+
+//what is the form? define it
+// let form 
+
+//what do I want the form to do?
+// form.addEventListener("submit", (event) => {
+
+// event.preventDefault()
 
 
 
-
-
-//function to get all the drinks (I need to display them as well)
-// function getAllDrinks(renderCocktail) {
-  
-// let 
-// }
-
-
-
-
-//toggle dark-light mode <toggle dark mode> <WORKS>
 
 const element = document.getElementById("dark-button");
 
@@ -121,19 +79,11 @@ element.addEventListener("click", () => {
 });
 
 
-
-//random drink button <surprise me> returns the random drink in devtools <WORKS>
-
 const randomDrinkButton = document.getElementById("random-drink");
-
 randomDrinkButton.addEventListener("click", randomDrink) 
 
 
 
-//all drinks button <gimme all the drinks>
 
-// const allDrinksButton = document.getElementsByClassName("card"); //not sure if this should be "card" or "show-drinks"
-
-// allDrinksButton.addEventListener("click", getAllDrinks)
 
 
