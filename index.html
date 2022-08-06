@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Let's Have a Drink Tonight</title>
-    <link rel="stylesheet" href="./index.css" />
+      <title>Let's Have a Drink Tonight</title>
+      <link rel="stylesheet" href="./index.css" />
 
         <script defer src="./src/index.js"></script> 
         
@@ -15,32 +15,34 @@
     <body>
       <h1 class="main"></h1>
 
-      <button id="user-drink">Add New Drink</button>
-      <div class="show" id="user-drink"></div>
+     
 
-
-      
-      <form action="http://www.localhost:3000/cocktails" method="post">     
-
+      <form id="new-drink-form">     
         <input id="drink" type="text" placeholder="your new drink" />
         <br/>
         <input id="desc" type="text" placeholder="your drink description" />
         <br/>
-        <input id="ingr" type="text" placeholder="add ingredient" />
-        <br/>        
+        <input id="url" type="text" placeholder="add url for drink picture" />
+        <br/>  
+        <input id="ingr" type="text" placeholder="add ingredients" />
+        <br/>  
+        <button type="submit" id="user-drink">Add New Drink</button>
+        <div class="show" id="user-drink"></div>      
       </form>    
 
-  
 
       <br/>
       <button id="dark-button">Toggle dark mode</button>
       <br/>
+
+      <button id="all-drinks">Show All Drinks</button>
+      
+
       <button id="random-drink">Surprise me</button>
       <div class="display" id="display-drinks"></div>
 
       
-         
-      
+        
    </body>
 </html>
 
