@@ -14,18 +14,7 @@ body {
     color: aqua;
   }
 
- /* big background image */ 
-  /* html { 
-    background: url(The-Connaught-London-001.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-
-  /* card styling below */ 
   .card {
-    /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 15%;
@@ -42,49 +31,13 @@ body {
     width: 100%;
   }
   
-  /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
   }
 
-  /* .mystyle {
-    width: 100%;
-    padding: 25px;
-    background-color: purple;
-    color: lavender;
-    font-size: 25px;
-  }  */
 
- 
-
-/* 
-    
-a:link {
-    color: magenta;
-}
-  
-  /* visited link */
-  
-  /* a:visited {
-    color: pink;
-}
-  
-  /* mouse over link */
-/* a:hover {
-    background-color: magenta;
-} */
-  
-  /* selected link */
-/* a:active {
-    color: yellow;
-}  */
-  
-/* a:link {
-    text-decoration: none;  
-}  */
 
