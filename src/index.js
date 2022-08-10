@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetchCocktails();
 });
-//global variables
+
 let newDrinkForm = document.getElementById("new-drink-form");
 
 let numberOfCocktails;
