@@ -7,6 +7,7 @@ let newDrinkForm = document.getElementById("new-drink-form");
 let numberOfCocktails;
 
 let cocktailArray = [];
+let ingredientArray = [];
 
 const displayDiv = document.getElementById("display-drinks");
 
@@ -52,6 +53,44 @@ function renderCocktail(cocktail) {
   displayDiv.append(cardDiv);
 }
 
+//goal is to create a new object for each ingr.
+//need three new inputs every time
+//step 1 create a function that will create the three diff inputs, append to ingr div
+//when inputs are created, needs to also craete an object in key/value pairs, and get filled in by the mini-form
+//button on the form, callback function, tracks them and adds them to object
+const ingrDiv = document.getElementById("new-ingredients")
+const addIngrBtn = document.getElementById("add-ingr");
+
+addIngrBtn.addEventListener("click", (e) => {
+  //ingredient name, quantity, unit of measurement
+  e.preventDefault();
+  const ingrName = document.createElement("input");
+  const qty = document.createElement("input");
+  const meas = document.createElement("input");
+
+  ingrDiv.append(ingrName, qty, meas);
+  const ingObj = {
+      ingredientName: ingrName.value,
+      measurement: qty.value,
+      units: meas.value,
+    } 
+    ingredientArray.push(ingObj);
+
+    ingrName.onchange = function (){
+      ingrObj.ingredientName = ingrName.value
+      ingrObj.update();
+    }
+    qty.onchange = function (){
+      ingrObj.measurement = qty.value
+      ingrObj.update();
+    }
+    meas.onchange = function (){
+      ingrObj.units = meas.value
+      ingrObj.update();
+    }
+ 
+});
+
 newDrinkForm.addEventListener("submit", addNewDrink);
 
 function addNewDrink(e) {
@@ -59,25 +98,19 @@ function addNewDrink(e) {
   const newDrink = document.getElementById("drink");
   const newDesc = document.getElementById("desc");
   const newUrl = document.getElementById("url");
-  const newIngr = document.getElementById("ingr");
+  console.log(ingredientArray);
 
   const userCreatedDrink = {
     name: newDrink.value,
     desc: newDesc.value,
     url: newUrl.value,
-    ingredients: [
-      {
-        ingredientName: newIngr.value,
-        measurement: "",
-        units: "",
-      },
-    ],
+    ingredients: ingredientArray
   };
   
-  if (userCreatedDrink.name === "" || userCreatedDrink.name === null){
-    alert ("You must enter a drink name")
-    return 
-  }
+  // if (userCreatedDrink.name === "" || userCreatedDrink.name === null){
+  //   alert ("You must enter a drink name")
+  //   return 
+  // }
 
 
   fetch("http://www.localhost:3000/cocktails", {
@@ -91,6 +124,7 @@ function addNewDrink(e) {
     .then((newDrink) => {
       cocktailArray = [...cocktailArray, newDrink];
       renderCocktail(newDrink);
+      ingredientArray = [];
     });
 
   newDrinkForm.reset();
