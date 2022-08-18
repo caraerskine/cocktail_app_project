@@ -69,25 +69,7 @@ addIngrBtn.addEventListener("click", (e) => {
   const meas = document.createElement("input");
 
   ingrDiv.append(ingrName, qty, meas);
-  const ingObj = {
-      ingredientName: ingrName.value,
-      measurement: qty.value,
-      units: meas.value,
-    } 
-    ingredientArray.push(ingObj);
-
-    ingrName.onchange = function (){
-      ingrObj.ingredientName = ingrName.value
-      ingrObj.update();
-    }
-    qty.onchange = function (){
-      ingrObj.measurement = qty.value
-      ingrObj.update();
-    }
-    meas.onchange = function (){
-      ingrObj.units = meas.value
-      ingrObj.update();
-    }
+  
  
 });
 
@@ -99,6 +81,9 @@ function addNewDrink(e) {
   const newDesc = document.getElementById("desc");
   const newUrl = document.getElementById("url");
   console.log(ingredientArray);
+  while (ingrDiv.hasChildNodes()) {
+    ingrDiv.removeChild(ingrDiv.lastChild);
+}
 
   const userCreatedDrink = {
     name: newDrink.value,
